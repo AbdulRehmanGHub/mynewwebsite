@@ -1,44 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>MLSA-EVENT</title>
     <link rel="stylesheet" href="style.css">
-
-    <style>
-
-        .container{
-            background-color: darkturquoise;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #main-styling{
-            border: 3px solid black;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: mediumturquoise;
-        }
-
-        .footer{
-            text-align: center;
-            text-transform: uppercase;
-        }
-
-        .footer a{
-            text-decoration: none;
-            color: fuchsia;
-        }
-
-
-
-
-
-    </style>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -46,7 +11,7 @@
     <header class="header-class top-section">
         <h1 style="color: tomato;">Sign In</h1>
         <a href="https://www.linkedin.com/in/abdulrehman0/"><img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mikebirdy-170811.jpg&fm=jpg"
-            alt="yahan per image hai" height="100px" width="200px"></a>
+            alt="yahan per image hai" height="100px" width="360px"></a>
         <h4>Please sign in to access.</h4>
 
         <p>Fill all the fields to login</p>
@@ -60,18 +25,28 @@
             <input type="password" placeholder="enter your pass"> <br>
 
             <button>Login</button>
-            <input type="submit" value="Logout">
+            <input id="inp-btn" type="submit" value="Logout">
 
         </form>
     </main>
 
+    <footer class="footer">
+        <a href="https://www.google.com/">Google</a>
+    </footer>
+
+    <h1 class="text-center bg-warning">This is Bootstrap</h1>
+
 </div>
 
-<footer class="footer">
-    <a href="https://www.google.com/">Google</a>
-</footer>
 
-    <section>
+
+
+   <script src="script.js"></script>
+
+
+
+
+    <!-- <section>
         <h2>Favorite Sports</h2>
         <ul>
             <li>Cricket</li>
@@ -87,10 +62,14 @@
             <li>Football</li>
             <li>VolleyBall</li>
         </ol>
-    </article>
+    </article> -->
+
+
+    
 
    
-
+    
+        
 
 
 
@@ -103,7 +82,8 @@
             3 types of styling
             inline css   --   html mein hi css dete hain
             internal css   --  jo styling isi page per krenge
-            external css  --   styling on different css file.
+
+            external css  --   styling on different css file.   Recommended
 
     -->
 
@@ -129,4 +109,21 @@
            Aside
            Footer -->
 
+
+           <!-- 
+           boilerplate
+
+           html
+
+           css
+
+           *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+           }
+           
+
+
+           -->
 
